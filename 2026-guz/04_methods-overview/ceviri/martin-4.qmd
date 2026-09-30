@@ -1,7 +1,7 @@
 ---
 title: "Yöntemlere Genel Bakış"
 subtitle: "Bölüm 4"
-author: "Martin"
+author: "Asasira Martin"
 lang: tr
 bibliography: references.bib
 format:

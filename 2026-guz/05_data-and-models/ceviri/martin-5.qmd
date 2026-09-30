@@ -1,7 +1,7 @@
 ---
 title: "Veri ve Modeller"
 subtitle: "Bölüm 5"
-author: "Martin"
+author: "Asasira Martin"
 lang: tr
 bibliography: references.bib
 format:
