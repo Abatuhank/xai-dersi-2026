@@ -1,5 +1,9 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "2026-guz/**/*.qmd"
+    - "!2026-guz/08_glm-gam-and-more/ceviri/ahmetbatuhankaya-20269348005.qmd"
 
 website:
   title: "XAI Dersi"
@@ -12,6 +16,3 @@ format:
   html:
     theme: cosmo
     toc: true
-
-execute:
-  enabled: false
