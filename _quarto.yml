@@ -1,0 +1,17 @@
+project:
+  type: website
+
+website:
+  title: "XAI Dersi"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Ana Sayfa
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+execute:
+  freeze: auto
