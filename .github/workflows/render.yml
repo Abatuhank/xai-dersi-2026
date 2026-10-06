@@ -1,0 +1,27 @@
+name: Quarto Render & Deploy
+
+on:
+  push:
+    branches: [main] # Sadece main dalına push yapıldığında çalışır
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repoyu Çek
+        uses: actions/checkout@v4
+
+      - name: Quarto Kur
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render Et ve Yayınla
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
