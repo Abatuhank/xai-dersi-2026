@@ -23,23 +23,11 @@ jobs:
       - name: Repoyu Çek
         uses: actions/checkout@v4
 
-      - name: Inline R Kodlarını Temizle
-        run: |
-          find . -name "*.qmd" -exec sed -i -E 's/`r [^`]+`//g' {} \;
-
-      - name: R Kur
-        uses: r-lib/actions/setup-r@v2
-
-      - name: R Paketlerini Kur
-        run: |
-          install.packages(c("knitr", "rmarkdown"))
-        shell: Rscript {0}
-
       - name: Quarto Kur
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render Et
-        run: quarto render --no-execute
+        run: quarto render
 
       - name: Pages Ayarlarını Yap
         uses: actions/configure-pages@v4
