@@ -1,5 +1,7 @@
 project:
   type: website
+  render:
+    - "index.qmd"
 
 website:
   title: "XAI Dersi"
@@ -12,6 +14,3 @@ format:
   html:
     theme: cosmo
     toc: true
-
-execute:
-  enabled: false
