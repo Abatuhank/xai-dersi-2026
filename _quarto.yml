@@ -14,4 +14,4 @@ format:
     toc: true
 
 execute:
-  enabled: false    ← BU SATIRI EKLE
+  enabled: false
