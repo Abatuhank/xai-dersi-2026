@@ -1,0 +1,7 @@
+---
+title: "XAI Dersi"
+---
+
+Bu site, XAI dersi kapsamında hazırlanan çeviri ve dokümantasyonu içerir.
+
+Sol üstteki menüden bölümlere ulaşabilirsiniz.
