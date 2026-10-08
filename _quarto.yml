@@ -1,15 +1,3 @@
-project:
-  type: website
-  render:
-    - "index.qmd"
-
-website:
-  title: "XAI Dersi"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Ana Sayfa
-
 format:
   html:
     theme: cosmo
